@@ -1,7 +1,5 @@
 ---
 - hosts: dev
-  vars_files: 
-    - passwd.yml
   tasks:
     - name: Install python pip
       yum:
