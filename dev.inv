@@ -1,8 +1,2 @@
-[dev:vars]
-ansible_user=root  # ssh login user
-ansible_become=yes  # use sudo 
-ansible_become_method=sudo 
-ansible_become_pass='{{ my_dev_sudo_pass }}'
-
 [dev]
 192.168.15.130
