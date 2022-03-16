@@ -1,7 +1,5 @@
 ---
 - hosts: dev
-  become: True
-  became_user: root
   vars_files: 
     - passwd.yml
   tasks:
